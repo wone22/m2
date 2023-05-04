@@ -1,0 +1,103 @@
+body{
+    direction: rtl;
+    color:rgb(0, 149, 248) ;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head ul li a{
+    text-decoration: none;
+color:rgb(0, 149, 248) ;
+
+
+}
+.head h1{
+ position: relative;
+ left: -20px;
+}
+.head ul li .t1{
+    position: relative;
+    left: 150px;
+}
+.head ul li .t2{
+position: relative;
+left: -150px;
+}
+.head ul li{
+list-style: none;
+display: inline-block;
+padding: 10px;
+border-radius: 5px;
+position: relative;
+bottom: 54px;
+left: -300px;
+}
+
+.p1{
+    direction:ltr ;
+}
+.p1 h1{
+    position: relative;
+    bottom: 350px;
+    right: -850px;
+    
+}
+.footer h1{
+    position: relative;
+    left: -550px;
+}
+.footer{
+    
+    width: 2000px;
+    height: 50px;
+    background-color:rgb(0, 149, 248) ;
+    position: relative;
+    left: 20px;
+ color: antiquewhite;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .head ul h1{
+        position: relative;
+        left: -70px
+    }
+    .head ul li{
+        position: relative;
+        left: 98px
+    }
+    .head ul li .t1{
+       position: relative;
+       left: -150px;
+       bottom: -40px;
+       left: -50px;
+
+    }
+    .head ul li .t3{
+        position: relative;
+        left: -150px;
+        bottom: -40px;
+        left: -px;
+    }
+    .p1 img{
+        width: 300px;
+        position: relative;
+        top: 50px;
+    }
+    .p1 h1{
+        position: relative;
+        left: 30px;
+        font-size: 20px;
+    }
+    .footer{
+        position: relative;
+      top: 70px;
+      color: white;
+      font-size: 10px;
+      width: 320px;
+    }
+    .footer h1{
+        position: relative;
+        left: -50px;
+    }
+  }
